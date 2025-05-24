@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+
+     <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" spellcheck="false" placeholder="Enter City name">
+            <button><img src="search.png"></button>
+        </div>
+        <div class="error">Invalid city name</div>
+        <div class="weather">
+            <img class="weather_icon" src="clouds.png" >
+            <h1 class="temprature">32°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png">
+                    <div class="col_para">
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.png">
+                    <div class="col_para">
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+    <footer class="footer">
+        <p>Made with <span>&hearts;</span> by kshitiz</p>
+        <p>&copy; 2025 Kshitiz. All rights reserved.</p>
+        <div class="follow-icons">
+            <a href="https://github.com/kshitizsoni12"><i class="fa-brands fa-github"></i></i></a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kshitiz-soni-828b69324/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@kshitizsoni5040"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
