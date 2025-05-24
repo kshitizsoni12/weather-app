@@ -158,3 +158,24 @@ a i:hover {
     transform: scale(1.2);
     opacity: 0.8;
 }
+
+@media(max-height : 850px){
+    .footer{
+    position: static;
+    }
+    .card{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:470px){
+    .col img{
+    width:30px;
+    margin-right: 10px;
+    }
+
+.wind , .humidity{
+    font-size:20px;
+}
+
+}
