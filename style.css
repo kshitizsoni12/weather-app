@@ -177,5 +177,18 @@ a i:hover {
 .wind , .humidity{
     font-size:20px;
 }
+}
+
+@media(max-width:390px){
+    .col img{
+    margin-right: 7px;
+    }
+
+.wind , .humidity{
+    font-size:16px;
+}
+.details{
+    padding:0px;
+}
 
 }
